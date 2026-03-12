@@ -1,0 +1,6 @@
+Party Name,Address Line 1,Address Line 2,City,State,PIN Code,Country,Phone,Mobile,Email,GSTIN,PAN,Company Type
+ABC Pvt Ltd,123 MG Road,Near City Mall,Mumbai,Maharashtra,400001,India,022-12345678,9876543210,abc@example.com,27AABCU9603R1ZM,AABCU9603R,Company
+XYZ Solutions,456 Nehru Street,Sector 5,Delhi,Delhi,110001,India,011-23456789,9876543211,xyz@example.com,07AACFX1234M1Z5,AACFX1234M,Company
+Retail Store One,789 Park Avenue,,Bangalore,Karnataka,560001,India,080-34567890,9876543212,retail@example.com,29AAECR1234Q1Z3,AAECR1234Q,Company
+Consumer Electronics,321 Ring Road,Shop No 5,Pune,Maharashtra,411001,India,020-45678901,9876543213,electronics@example.com,27AAHCE1234D1Z1,AAHCE1234D,Company
+General Stores,654 Main Market,,Kolkata,West Bengal,700001,India,033-56789012,9876543214,general@example.com,19AABCG1234H1Z8,AABCG1234H,Company

@@ -1,0 +1,6 @@
+Product Name,Item Code,Category,Unit,Sale Price,Purchase Price,HSN Code,GST Rate,Barcode,Description
+Dell Laptop,LAP001,Electronics,Nos,45000,40000,84713000,GST 18%,123456789,Dell Inspiron 15 Laptop
+HP Printer,PRINT001,Electronics,Nos,8500,7500,84433210,GST 18%,234567890,HP LaserJet Printer
+Basmati Rice 1Kg,RICE001,Grocery,Kg,60,50,10063000,GST 5%,345678901,Premium Basmati Rice
+Cooking Oil 1L,OIL001,Grocery,Ltr,150,130,15119010,GST 5%,456789012,Sunflower Cooking Oil
+Office Chair,CHAIR001,Furniture,Nos,3500,3000,94016100,GST 18%,567890123,Ergonomic Office Chair
