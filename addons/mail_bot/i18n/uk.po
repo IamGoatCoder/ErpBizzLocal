@@ -152,8 +152,8 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "Статус OdooBot"
+msgid "ErpBot Status"
+msgstr "Статус ErpBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
@@ -199,7 +199,7 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 
@@ -285,7 +285,7 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 
 #. module: mail_bot
@@ -384,10 +384,10 @@ msgstr "розпочати тур"
 
 #~ msgid ""
 #~ "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-#~ "Write <span class=\"o_odoobot_command\">@OdooBot</span> and select me."
+#~ "Write <span class=\"o_odoobot_command\">@ErpBot</span> and select me."
 #~ msgstr ""
 #~ "Вибачте, я не слухаю. Щоби привернути чиюсь увагу, <b>позначте його</b>. "
-#~ "Напишіть <span class=\"o_odoobot_command\">@OdooBot</span> та оберіть "
+#~ "Напишіть <span class=\"o_odoobot_command\">@ErpBot</span> та оберіть "
 #~ "мене."
 
 #~ msgid ""
@@ -411,11 +411,11 @@ msgstr "розпочати тур"
 #~ msgid ""
 #~ "Wow you are a natural!<br/>Ping someone with @username to grab their "
 #~ "attention. <b>Try to ping me using</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> in a sentence."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> in a sentence."
 #~ msgstr ""
 #~ "Вау, ви справжній!<br/>Позначте когось через @username, щоби привернути "
 #~ "його увагу. <b>Спробуйте позначити мене, використовуючи</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> у реченні."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> у реченні."
 
 #~ msgid ""
 #~ "Yep, I am here! 🎉 <br/>Now, try <b>sending an attachment</b>, like a "

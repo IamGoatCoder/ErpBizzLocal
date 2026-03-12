@@ -33,7 +33,7 @@ class StatusPage extends Component {
     static template = xml`
     <t t-translation="off">
         <div class="text-center pt-5">
-            <img class="odoo-logo" src="/web/static/img/logo.png" alt="ErpBizz logo"/>
+            <img class="odoo-logo" src="/web/static/img/favicon.png" alt="ErpBizz logo"/>
         </div>
         <div t-if="state.loading || state.data.new_database_url" class="position-fixed top-0 start-0 vh-100 w-100 justify-content-center align-items-center d-flex flex-column gap-5">
             <div class="spinner-border">

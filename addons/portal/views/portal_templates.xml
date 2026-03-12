@@ -15,7 +15,7 @@
             <nav class="navbar navbar-expand navbar-light bg-light">
                 <div class="container">
                     <a href="/" class="navbar-brand logo">
-                        <img t-att-src="'/logo.png?company=%s' % res_company.id" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                        <img t-att-src="'/favicon.png?company=%s' % res_company.id" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
                     </a>
                     <ul id="top_menu" class="nav navbar-nav ms-auto">
                         <t t-call="portal.placeholder_user_sign_in">
@@ -280,7 +280,7 @@
                 </div>
                 <t t-if="entries" t-out="entries"/>
                 <div class="d-none d-lg-block mt-5 small text-center text-muted">
-                    Powered by <a target="_blank" href="http://www.odoo.com?utm_source=db&amp;utm_medium=portal" title="odoo"><img src="/web/static/img/logo.png" alt="ErpBizz Logo" height="15"/></a>
+                    Powered by <a target="_blank" href="http://www.odoo.com?utm_source=db&amp;utm_medium=portal" title="odoo"><img src="/web/static/img/favicon.png" alt="ErpBizz Logo" height="15"/></a>
                 </div>
             </div>
             <div class="vr d-none d-lg-block bg-300"/>

@@ -18,14 +18,14 @@ test("Can replace an image", async () => {
             id: 1,
             name: "logo",
             mimetype: "image/png",
-            image_src: "/web/static/img/logo.png",
+            image_src: "/web/static/img/favicon.png",
             access_token: false,
             public: true,
         },
     ]);
     const env = await makeMockEnv();
-    await setupEditor(`<p> <img class="img-fluid" src="/web/static/img/logo.png"> </p>`, { env });
-    expect("img[src='/web/static/img/logo.png']").toHaveCount(1);
+    await setupEditor(`<p> <img class="img-fluid" src="/web/static/img/favicon.png"> </p>`, { env });
+    expect("img[src='/web/static/img/favicon.png']").toHaveCount(1);
     await click("img");
     await tick(); // selectionchange
     await waitFor(".o-we-toolbar");
@@ -34,8 +34,8 @@ test("Can replace an image", async () => {
     await animationFrame();
     await click(".o_existing_attachment_cell .o_button_area");
     await animationFrame();
-    expect("img[src='/web/static/img/logo.png']").toHaveCount(0);
-    expect("img[src='/web/static/img/logo.png']").toHaveCount(1);
+    expect("img[src='/web/static/img/favicon.png']").toHaveCount(0);
+    expect("img[src='/web/static/img/favicon.png']").toHaveCount(1);
 });
 
 test("Replace an image with link by a document should remove the link", async () => {
@@ -50,10 +50,10 @@ test("Replace an image with link by a document should remove the link", async ()
     ]);
     const env = await makeMockEnv();
     await setupEditor(
-        `<p><a href="http://test.com"><img class="img-fluid" src="/web/static/img/logo.png"></a></p>`,
+        `<p><a href="http://test.com"><img class="img-fluid" src="/web/static/img/favicon.png"></a></p>`,
         { env, config: { Plugins: [...MAIN_PLUGINS, ...NO_EMBEDDED_COMPONENTS_FALLBACK_PLUGINS] } }
     );
-    expect("img[src='/web/static/img/logo.png']").toHaveCount(1);
+    expect("img[src='/web/static/img/favicon.png']").toHaveCount(1);
     await click("img");
     await tick(); // selectionchange
     await waitFor(".o-we-toolbar");
@@ -64,18 +64,18 @@ test("Replace an image with link by a document should remove the link", async ()
     await animationFrame();
     await click(".o_we_attachment_highlight .o_button_area");
     expect(".odoo-editor-editable .o_file_box a:contains('file.txt')").toHaveCount(1);
-    expect("img[src='/web/static/img/logo.png']").toHaveCount(0);
+    expect("img[src='/web/static/img/favicon.png']").toHaveCount(0);
     expect("p a[href='http://test.com']").toHaveCount(0);
 });
 
 test("Replace an image by icon should remove invalid classes", async () => {
     onRpc("ir.attachment", "search_read", () => []);
     const env = await makeMockEnv();
-    await setupEditor(`<p><img class="img-fluid w-100" src="/web/static/img/logo.png"></p>`, {
+    await setupEditor(`<p><img class="img-fluid w-100" src="/web/static/img/favicon.png"></p>`, {
         env,
     });
-    expect("img[src='/web/static/img/logo.png']").toHaveCount(1);
-    expect("img[src='/web/static/img/logo.png']").toHaveClass("img-fluid w-100");
+    expect("img[src='/web/static/img/favicon.png']").toHaveCount(1);
+    expect("img[src='/web/static/img/favicon.png']").toHaveClass("img-fluid w-100");
     await click("img");
     await tick(); // selectionchange
     await waitFor(".o-we-toolbar");
@@ -86,7 +86,7 @@ test("Replace an image by icon should remove invalid classes", async () => {
     await animationFrame();
     await click("span.fa-envelope-o");
     await animationFrame();
-    expect("img[src='/web/static/img/logo.png']").toHaveCount(0);
+    expect("img[src='/web/static/img/favicon.png']").toHaveCount(0);
     expect("p > span.fa-envelope-o").toHaveCount(1);
     expect("p > span.fa-envelope-o").not.toHaveClass("img-fluid");
     expect("p > span.fa-envelope-o").not.toHaveClass("w-100");
@@ -99,14 +99,14 @@ test("Selection is collapsed after the image after replacing it", async () => {
             id: 1,
             name: "logo",
             mimetype: "image/png",
-            image_src: "/web/static/img/logo.png",
+            image_src: "/web/static/img/favicon.png",
             access_token: false,
             public: true,
         },
     ]);
     const env = await makeMockEnv();
     const { el } = await setupEditor(
-        `<p>abc<img class="img-fluid" src="/web/static/img/logo.png">def</p>`,
+        `<p>abc<img class="img-fluid" src="/web/static/img/favicon.png">def</p>`,
         { env }
     );
     await click("img");
@@ -122,9 +122,9 @@ test("Selection is collapsed after the image after replacing it", async () => {
 test("should not preserve image styles when replacing an image with an icon", async () => {
     onRpc("ir.attachment", "search_read", () => []);
     const { el } = await setupEditor(
-        `<p><img class="img-fluid" src="/web/static/img/logo.png" style="width: 25%; transform: scaleX(2) scaleY(1);"></p>`
+        `<p><img class="img-fluid" src="/web/static/img/favicon.png" style="width: 25%; transform: scaleX(2) scaleY(1);"></p>`
     );
-    expect("img[src='/web/static/img/logo.png']").toHaveCount(1);
+    expect("img[src='/web/static/img/favicon.png']").toHaveCount(1);
     await click("img");
     await tick(); // selectionchange
     await waitFor(".o-we-toolbar");
@@ -147,7 +147,7 @@ test("Can insert an image, and selection should be collapsed after it", async ()
             id: 1,
             name: "logo",
             mimetype: "image/png",
-            image_src: "/web/static/img/logo.png",
+            image_src: "/web/static/img/favicon.png",
             access_token: false,
             public: true,
         },
@@ -161,7 +161,7 @@ test("Can insert an image, and selection should be collapsed after it", async ()
     await animationFrame();
     await click(".o_existing_attachment_cell .o_button_area");
     await animationFrame();
-    expect("img[src='/web/static/img/logo.png']").toHaveCount(1);
+    expect("img[src='/web/static/img/favicon.png']").toHaveCount(1);
     expect(getContent(el).replace(/<img.*?>/, "<img>")).toBe("<p>a<img>[]bc</p>");
 });
 

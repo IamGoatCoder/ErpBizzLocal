@@ -4775,7 +4775,7 @@ class AccountMove(models.Model):
             'auto_post': self.auto_post,  # copy=False to avoid mistakes but should be the same in recurring copies
             'auto_post_until': self.auto_post_until,  # same as above
             'auto_post_origin_id': self.auto_post_origin_id.id,  # same as above
-            'invoice_user_id': self.invoice_user_id.id,  # otherwise user would be OdooBot
+            'invoice_user_id': self.invoice_user_id.id,  # otherwise user would be ErpBot
         })
         if self.invoice_date:
             values.update({'invoice_date': self._apply_delta_recurring_entries(self.invoice_date, self.auto_post_origin_id.invoice_date, self.auto_post)})
@@ -6987,7 +6987,7 @@ class AccountMove(models.Model):
             attachment_records = self._from_files_data(files_data)
             self._fix_attachments_on_record(attachment_records)
 
-            # Only trigger decoding if the message was sent by an active internal user (note OdooBot is always inactive).
+            # Only trigger decoding if the message was sent by an active internal user (note ErpBot is always inactive).
             if self.env.user.active and self.env.user._is_internal():
                 self._extend_with_attachments(files_data)
 

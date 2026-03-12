@@ -63,7 +63,7 @@
                                 </td>
                                 <td valign="middle" align="right">
                                     <t t-if="not object.uses_default_logo">
-                                        <img t-att-src="'/logo.png?company=%s' % object.id"
+                                        <img t-att-src="'/favicon.png?company=%s' % object.id"
                                              style="height: auto; width: 80px; margin-right: 10px;"
                                              t-att-alt="'%s' % object.name"/>
                                     </t>

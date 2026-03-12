@@ -17419,8 +17419,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "Adicione o OdooBot nas discussões"
+msgid "Add ErpBot in discussions"
+msgstr "Adicione o ErpBot nas discussões"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
@@ -38704,13 +38704,13 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "ErpBot"
+msgstr "ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
-msgstr "OdooBot - RH"
+msgid "ErpBot - HR"
+msgstr "ErpBot - RH"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -47875,10 +47875,10 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
-"Este módulo adiciona o estado do OdooBot e notificações no formulário do "
+"Este módulo adiciona o estado do ErpBot e notificações no formulário do "
 "usuário modificado pelo RH."
 
 #. module: base
@@ -59945,8 +59945,8 @@ msgstr "o valor “%(attribute)s” deve ser um número inteiro (%(value)s)"
 #~ "Adicione o recurso de digitalização de código de barras ao gerenciamento "
 #~ "de eventos."
 
-#~ msgid "Add livechat support for OdooBot"
-#~ msgstr "Adicione suporte ao live chat para OdooBot"
+#~ msgid "Add livechat support for ErpBot"
+#~ msgstr "Adicione suporte ao live chat para ErpBot"
 
 #~ msgid "Advanced Features for Purchase Management"
 #~ msgstr "Recursos avançados para gerenciamento de compras"
@@ -61294,8 +61294,8 @@ msgstr "o valor “%(attribute)s” deve ser um número inteiro (%(value)s)"
 #~ "e-mails diretamente na aplicação.\n"
 #~ "\n"
 
-#~ msgid "OdooBot for livechat"
-#~ msgstr "OdooBot para live chat"
+#~ msgid "ErpBot for livechat"
+#~ msgstr "ErpBot para live chat"
 
 #~ msgid ""
 #~ "One of the documents you are trying to access has been deleted, please "

@@ -16632,8 +16632,8 @@ msgstr "在项目任务和标签模型的上下文菜单中增加合并动作."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "在讨论中添加 OdooBot"
+msgid "Add ErpBot in discussions"
+msgstr "在讨论中添加 ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
@@ -37422,13 +37422,13 @@ msgstr "系统会自动在“下一个编号”的左侧添加一些‘0’以�
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "ErpBot"
+msgstr "ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
-msgstr "OdooBot - 人力资源"
+msgid "ErpBot - HR"
+msgstr "ErpBot - 人力资源"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -46411,7 +46411,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
 msgstr "该模块在hr修改的用户表单中增加OdooBot状态和通知."
 
@@ -59458,7 +59458,7 @@ msgstr "%(attribute)s的值必须是整数（%(value)s）"
 #~ msgid "Add barcode scanning feature to event management."
 #~ msgstr "将条码扫瞄功能增加到活动管理中."
 
-#~ msgid "Add livechat support for OdooBot"
+#~ msgid "Add livechat support for ErpBot"
 #~ msgstr "增加OdooBot及时聊天支持"
 
 #~ msgid "Adds specific fields to Employees for Mexican companies."
@@ -62025,7 +62025,7 @@ msgstr "%(attribute)s的值必须是整数（%(value)s）"
 #~ "线上安排、组织、推广或销售活动；会议、网络研讨会、培训等.\n"
 #~ "\n"
 
-#~ msgid "OdooBot for livechat"
+#~ msgid "ErpBot for livechat"
 #~ msgstr "即时聊天使用 Odoo机器人"
 
 #~ msgid "On site Payment & Picking"

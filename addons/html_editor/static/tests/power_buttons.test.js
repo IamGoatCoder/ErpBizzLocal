@@ -160,7 +160,7 @@ describe("buttons", () => {
                 id: 1,
                 name: "logo",
                 mimetype: "image/png",
-                image_src: "/web/static/img/logo.png",
+                image_src: "/web/static/img/favicon.png",
                 access_token: false,
                 public: true,
             },

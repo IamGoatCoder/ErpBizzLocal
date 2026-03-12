@@ -143,7 +143,7 @@ class PaymentTransaction(models.Model):
             order.message_post(body=message, author_id=author.id)
 
     def _send_invoice(self):
-        # Send messages as OdooBot so that
+        # Send messages as ErpBot so that
         #   * logged in users receive the invoice
         #   * the mail and notifications are not sent by the public user
         for tx in self.with_user(SUPERUSER_ID):

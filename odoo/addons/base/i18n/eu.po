@@ -9258,7 +9258,7 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
+msgid "Add ErpBot in discussions"
 msgstr ""
 
 #. module: base
@@ -9366,7 +9366,7 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_im_livechat_mail_bot
-msgid "Add livechat support for OdooBot"
+msgid "Add livechat support for ErpBot"
 msgstr ""
 
 #. module: base
@@ -21828,17 +21828,17 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
+msgid "ErpBot"
 msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
+msgid "ErpBot - HR"
 msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_im_livechat_mail_bot
-msgid "OdooBot for livechat"
+msgid "ErpBot for livechat"
 msgstr ""
 
 #. module: base
@@ -27837,7 +27837,7 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
-msgid "This module adds the OdooBot state and notifications in the user form modified by hr."
+msgid "This module adds the ErpBot state and notifications in the user form modified by hr."
 msgstr ""
 
 #. module: base

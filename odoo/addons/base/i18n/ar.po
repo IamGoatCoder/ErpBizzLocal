@@ -17852,8 +17852,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "إضافة OdooBot في المناقشات"
+msgid "Add ErpBot in discussions"
+msgstr "إضافة ErpBot في المناقشات"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
@@ -39129,12 +39129,12 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "ErpBot"
+msgstr "ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
+msgid "ErpBot - HR"
 msgstr "أودو بوت - الموارد البشرية"
 
 #. module: base
@@ -48287,10 +48287,10 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
-"يضيف هذا التطبيق حالة OdooBot والإشعارات في استمارة المستخدم التي يتم "
+"يضيف هذا التطبيق حالة ErpBot والإشعارات في استمارة المستخدم التي يتم "
 "تعديلها بواسطة الموارد البشرية."
 
 #. module: base
@@ -61734,7 +61734,7 @@ msgstr "يجب أن تكون قيمة “%(attribute)s” عدداً صحيحا�
 #~ msgid "Add barcode scanning feature to event management."
 #~ msgstr "إضافة خاصية مسح الباركود لإدارة الفعاليات."
 
-#~ msgid "Add livechat support for OdooBot"
+#~ msgid "Add livechat support for ErpBot"
 #~ msgstr "إضافة خدمة الدعم عن طريق الدردشة المباشرة لـOdooBot "
 
 #~ msgid "Adds specific fields to Employees for Mexican companies."
@@ -64435,8 +64435,8 @@ msgstr "يجب أن تكون قيمة “%(attribute)s” عدداً صحيحا�
 #~ "الويب، والدورات التدريبية، وما إلى ذلك.\n"
 #~ "\n"
 
-#~ msgid "OdooBot for livechat"
-#~ msgstr "OdooBot للدردشة المباشرة "
+#~ msgid "ErpBot for livechat"
+#~ msgstr "ErpBot للدردشة المباشرة "
 
 #~ msgid "On site Payment & Picking"
 #~ msgstr "الدفع في الموقع وانتقاء البضائع "

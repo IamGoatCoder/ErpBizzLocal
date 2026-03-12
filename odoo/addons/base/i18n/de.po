@@ -18160,8 +18160,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "OdooBot in Diskussionen hinzufügen"
+msgid "Add ErpBot in discussions"
+msgstr "ErpBot in Diskussionen hinzufügen"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
@@ -39713,13 +39713,13 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "ErpBot"
+msgstr "ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
-msgstr "OdooBot - Personalwesen"
+msgid "ErpBot - HR"
+msgstr "ErpBot - Personalwesen"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -48995,10 +48995,10 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
-"Dieses Modul fügt den OdooBot-Status und Benachrichtigungen in das von der "
+"Dieses Modul fügt den ErpBot-Status und Benachrichtigungen in das von der "
 "Personalabteilung geänderte Benutzerformular ein."
 
 #. module: base
@@ -63014,8 +63014,8 @@ msgstr "Wert „%(attribute)s“ muss eine ganze Zahl sein (%(value)s)"
 #~ msgstr ""
 #~ "Fügen Sie die Funktion zum Barcode-Scannen zur Eventverwaltung hinzu."
 
-#~ msgid "Add livechat support for OdooBot"
-#~ msgstr "Füge Livechat-Unterstützung für OdooBot hinzu"
+#~ msgid "Add livechat support for ErpBot"
+#~ msgstr "Füge Livechat-Unterstützung für ErpBot hinzu"
 
 #~ msgid "Adds specific fields to Employees for Mexican companies."
 #~ msgstr ""
@@ -65829,8 +65829,8 @@ msgstr "Wert „%(attribute)s“ muss eine ganze Zahl sein (%(value)s)"
 #~ "Planen, Organisieren, Bewerben oder Verkaufen von Veranstaltungen online; "
 #~ "Konferenzen, Webinare, Schulungen usw.\n"
 
-#~ msgid "OdooBot for livechat"
-#~ msgstr "OdooBot für livechat"
+#~ msgid "ErpBot for livechat"
+#~ msgstr "ErpBot für livechat"
 
 #~ msgid "On site Payment & Picking"
 #~ msgstr "Bezahlung & Kommissionierung vor Ort"

@@ -84,41 +84,41 @@ class TestMailRenderMixin(common.HttpCase):
     @mute_logger("odoo.tests.common.requests")
     def test_shorten_links_html_different_labels(self):
         # Covers multiple additions from web_editor's convert_inline.js classToStyle
-        content = """<p>There is a <a href="https://www.odoo.com">logo.png</a> here,
+        content = """<p>There is a <a href="https://www.odoo.com">favicon.png</a> here,
 <a href="https://www.odoo.com">there</a>, and in this
-<a href="https://www.odoo.com"><!--[if mso]><img src="https://www.odoo.com/logo.png" alt="image" style="1"/><![endif]-->
-<!--[if !mso]><!--><img src="https://www.odoo.com/logo.png" style="2" alt="image"/><!--<![endif]--></a>
+<a href="https://www.odoo.com"><!--[if mso]><img src="https://www.odoo.com/favicon.png" alt="image" style="1"/><![endif]-->
+<!--[if !mso]><!--><img src="https://www.odoo.com/favicon.png" style="2" alt="image"/><!--<![endif]--></a>
 and also <a href="https://www.odoo.com">
-    <p class="o_outlook_hack" style="text-align: center; margin: 0px;"><img src="https://www.odoo.com/logo.png" fakealt="image3" alt="image2's trouble"></img></p>
+    <p class="o_outlook_hack" style="text-align: center; margin: 0px;"><img src="https://www.odoo.com/favicon.png" fakealt="image3" alt="image2's trouble"></img></p>
 </a>
-Single/Nested quotes are not <a href="https://www.odoo.com"><img src='https://www.odoo.com/logo.png' alt='"scary"'/></a>
-Nor escaped <a href="https://www.odoo.com">  <img src="https://www.odoo.com/logo.png" alt="ins \' ide"></a>
-Nor escaped <a href="https://www.odoo.com"> blurp <img src="https://www.odoo.com/logo.png" alt="ins \' ide"></a>
+Single/Nested quotes are not <a href="https://www.odoo.com"><img src='https://www.odoo.com/favicon.png' alt='"scary"'/></a>
+Nor escaped <a href="https://www.odoo.com">  <img src="https://www.odoo.com/favicon.png" alt="ins \' ide"></a>
+Nor escaped <a href="https://www.odoo.com"> blurp <img src="https://www.odoo.com/favicon.png" alt="ins \' ide"></a>
 Without matched label because inside tags are a pain and rare: <a href="https://www.odoo.com"><em>here</em></a>
-Without alt, filename is used: <a href="https://www.odoo.com"><img src="https://www.odoo.com/logo.png"></a>
-And here is the same: <a href="https://www.odoo.com"><img src="https://www.odoo.com/logo.png"></a></p>"""
+Without alt, filename is used: <a href="https://www.odoo.com"><img src="https://www.odoo.com/favicon.png"></a>
+And here is the same: <a href="https://www.odoo.com"><img src="https://www.odoo.com/favicon.png"></a></p>"""
 
         expected_pattern = re.compile(
-            rf"""<p>There is a <a href="{self.base_url}/r/(\w+)+">logo.png</a> here,
+            rf"""<p>There is a <a href="{self.base_url}/r/(\w+)+">favicon.png</a> here,
 <a href="{self.base_url}/r/(\w+)+">there</a>, and in this
-<a href="{self.base_url}/r/(\w+)+"><!--\[if mso]><img src="https://www.odoo.com/logo.png" alt="image" style="1"/><!\[endif]-->
-<!--\[if !mso]><!--><img src="https://www.odoo.com/logo.png" style="2" alt="image"/><!--<!\[endif]--></a>
+<a href="{self.base_url}/r/(\w+)+"><!--\[if mso]><img src="https://www.odoo.com/favicon.png" alt="image" style="1"/><!\[endif]-->
+<!--\[if !mso]><!--><img src="https://www.odoo.com/favicon.png" style="2" alt="image"/><!--<!\[endif]--></a>
 and also <a href="{self.base_url}/r/(\w+)+">
-    <p class="o_outlook_hack" style="text-align: center; margin: 0px;"><img src="https://www.odoo.com/logo.png" fakealt="image3" alt="image2\'s trouble"/></p>
+    <p class="o_outlook_hack" style="text-align: center; margin: 0px;"><img src="https://www.odoo.com/favicon.png" fakealt="image3" alt="image2\'s trouble"/></p>
 </a>
-Single/Nested quotes are not <a href="{self.base_url}/r/(\w+)+"><img src="https://www.odoo.com/logo.png" alt="&quot;scary&quot;"/></a>
-Nor escaped <a href="{self.base_url}/r/(\w+)+">  <img src="https://www.odoo.com/logo.png" alt="ins \' ide"/></a>
-Nor escaped <a href="{self.base_url}/r/(\w+)+"> blurp <img src="https://www.odoo.com/logo.png" alt="ins \' ide"/></a>
+Single/Nested quotes are not <a href="{self.base_url}/r/(\w+)+"><img src="https://www.odoo.com/favicon.png" alt="&quot;scary&quot;"/></a>
+Nor escaped <a href="{self.base_url}/r/(\w+)+">  <img src="https://www.odoo.com/favicon.png" alt="ins \' ide"/></a>
+Nor escaped <a href="{self.base_url}/r/(\w+)+"> blurp <img src="https://www.odoo.com/favicon.png" alt="ins \' ide"/></a>
 Without matched label because inside tags are a pain and rare: <a href="{self.base_url}/r/(\w+)+"><em>here</em></a>
-Without alt, filename is used: <a href="{self.base_url}/r/(\w+)+"><img src="https://www.odoo.com/logo.png"/></a>
-And here is the same: <a href="{self.base_url}/r/(\w+)+"><img src="https://www.odoo.com/logo.png"/></a></p>"""
+Without alt, filename is used: <a href="{self.base_url}/r/(\w+)+"><img src="https://www.odoo.com/favicon.png"/></a>
+And here is the same: <a href="{self.base_url}/r/(\w+)+"><img src="https://www.odoo.com/favicon.png"/></a></p>"""
         )
 
         new_content = self.env["mail.render.mixin"]._shorten_links(content, {})
         self.assertRegex(new_content, expected_pattern)
 
         trackers_to_find = [
-            [("url", "=", "https://www.odoo.com"), ("label", "=", "logo.png")],
+            [("url", "=", "https://www.odoo.com"), ("label", "=", "favicon.png")],
             [("url", "=", "https://www.odoo.com"), ("label", "=", "there")],
             [("url", "=", "https://www.odoo.com"), ("label", "=", "[media] image")],
             [("url", "=", "https://www.odoo.com"), ("label", "=", "[media] image2's trouble")],
@@ -126,7 +126,7 @@ And here is the same: <a href="{self.base_url}/r/(\w+)+"><img src="https://www.o
             [("url", "=", "https://www.odoo.com"), ("label", "=", '[media] "scary"')],
             [("url", "=", "https://www.odoo.com"), ("label", "=", "[media] ins ' ide")],
             [("url", "=", "https://www.odoo.com"), ("label", "=", False)],
-            [("url", "=", "https://www.odoo.com"), ("label", "=", "[media] logo.png")],
+            [("url", "=", "https://www.odoo.com"), ("label", "=", "[media] favicon.png")],
         ]
         for tracker_to_find in trackers_to_find:
             with self.subTest(tracker_to_find=tracker_to_find):

@@ -16935,8 +16935,8 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
 #, fuzzy
-msgid "Add OdooBot in discussions"
-msgstr "Muhokamalarga OdooBot-ni qo‘shish"
+msgid "Add ErpBot in discussions"
+msgstr "Muhokamalarga ErpBot-ni qo‘shish"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
@@ -40640,14 +40640,14 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
 #, fuzzy
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "ErpBot"
+msgstr "ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
 #, fuzzy
-msgid "OdooBot - HR"
-msgstr "OdooBot - HR"
+msgid "ErpBot - HR"
+msgstr "ErpBot - HR"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -51051,10 +51051,10 @@ msgstr ""
 #: model:ir.module.module,description:base.module_mail_bot_hr
 #, fuzzy
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
-"Ushbu modul HR tomonidan o‘zgartirilgan foydalanuvchi shaklida OdooBot "
+"Ushbu modul HR tomonidan o‘zgartirilgan foydalanuvchi shaklida ErpBot "
 "holati va bildirishnomalarini qo‘shadi."
 
 #. module: base

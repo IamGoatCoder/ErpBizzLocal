@@ -17359,8 +17359,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "업무 협의에 OdooBot 추가"
+msgid "Add ErpBot in discussions"
+msgstr "업무 협의에 ErpBot 추가"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
@@ -38436,12 +38436,12 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
+msgid "ErpBot"
 msgstr "Odoo봇"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
+msgid "ErpBot - HR"
 msgstr "Odoo봇 - 인사관리"
 
 #. module: base
@@ -47538,9 +47538,9 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
-msgstr "이 모듈은 HR로 수정된 사용자 양식에 OdooBot 상태 및 알림을 추가합니다."
+msgstr "이 모듈은 HR로 수정된 사용자 양식에 ErpBot 상태 및 알림을 추가합니다."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_codabox
@@ -60300,7 +60300,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ msgid "Add barcode scanning feature to event management."
 #~ msgstr "바코드 스캔 기능을 이벤트 관리에 추가합니다."
 
-#~ msgid "Add livechat support for OdooBot"
+#~ msgid "Add livechat support for ErpBot"
 #~ msgstr "OdooBot에 대한 실시간 채팅 지원 추가"
 
 #~ msgid "Advanced Features for Purchase Management"
@@ -62461,7 +62461,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "\n"
 #~ "온라인 이벤트 예약, 구성, 홍보 또는 판매 컨퍼런스, 교육, 웨비나 등\n"
 
-#~ msgid "OdooBot for livechat"
+#~ msgid "ErpBot for livechat"
 #~ msgstr "OdooBot을 사용하여 실시간 채팅"
 
 #~ msgid ""

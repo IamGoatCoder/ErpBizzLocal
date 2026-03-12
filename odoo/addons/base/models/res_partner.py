@@ -426,7 +426,7 @@ class ResPartner(models.Model):
                 partner.main_user_id = self.env.user
                 continue
             users = partner.user_ids.filtered(lambda u: u.active).with_prefetch(self.user_ids.ids)
-            # Special case for OdooBot as its user might be archived.
+            # Special case for ErpBot as its user might be archived.
             if not users and partner.id == self.env["ir.model.data"]._xmlid_to_res_id("base.partner_root"):
                 partner.main_user_id = self.env["ir.model.data"]._xmlid_to_res_id("base.user_root")
                 continue

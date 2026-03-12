@@ -167,7 +167,7 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
+msgid "ErpBot Status"
 msgstr "OdooBotin tila"
 
 #. module: mail_bot
@@ -217,11 +217,11 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 "Anteeksi, en kuunnellut. Jos haluat saada jonkun huomion, %(bold_start)s "
-"pingaa häntä%(bold_end)s. Kirjoita %(command_start)s@OdooBot%(command_end)s "
+"pingaa häntä%(bold_end)s. Kirjoita %(command_start)s@ErpBot%(command_end)s "
 "ja valitse minut."
 
 #. module: mail_bot
@@ -319,11 +319,11 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 "Hienoa!%(new_line)sPingaa jotakuta @käyttäjänimi -nimellä kiinnittääksesi "
 "hänen huomionsa. %(bold_start)sYritä pingata minua käyttämällä%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s lauseessa."
+"(command_start)s@ErpBot%(command_end)s lauseessa."
 
 #. module: mail_bot
 #. odoo-python
@@ -423,10 +423,10 @@ msgstr "aloita perehdytys"
 
 #~ msgid ""
 #~ "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-#~ "Write <span class=\"o_odoobot_command\">@OdooBot</span> and select me."
+#~ "Write <span class=\"o_odoobot_command\">@ErpBot</span> and select me."
 #~ msgstr ""
 #~ "Anteeksi, en kuunnellut. Jos haluat saada huomiota joltain, <b>pingaa "
-#~ "häntä</b>. Kirjoita <span class=\"o_odoobot_command\">@OdooBot</span> ja "
+#~ "häntä</b>. Kirjoita <span class=\"o_odoobot_command\">@ErpBot</span> ja "
 #~ "valitse minut."
 
 #~ msgid ""
@@ -450,11 +450,11 @@ msgstr "aloita perehdytys"
 #~ msgid ""
 #~ "Wow you are a natural!<br/>Ping someone with @username to grab their "
 #~ "attention. <b>Try to ping me using</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> in a sentence."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> in a sentence."
 #~ msgstr ""
 #~ "Vau, olet luonnonlahjakkuus!<br/>Pingaa joku @käyttäjänimi -nimellä "
 #~ "saadaksesi hänen huomionsa. <b>Yritä pingata minua käyttämällä</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> lauseessa."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> lauseessa."
 
 #~ msgid ""
 #~ "Yep, I am here! 🎉 <br/>Now, try <b>sending an attachment</b>, like a "

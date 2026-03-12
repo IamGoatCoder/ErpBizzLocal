@@ -1096,7 +1096,7 @@ test("toolbar does not evaluate isActive when namespace does not match", async (
         `
         <div>
             <p>[Foo]</p>
-            <img class="img-fluid" src="/web/static/img/logo.png">
+            <img class="img-fluid" src="/web/static/img/favicon.png">
         </div>
     `,
         {
@@ -1299,7 +1299,7 @@ test("toolbar should open with image namespace the selection spans an image and 
 
 test.tags("desktop");
 test("toolbar should not be visible for collapsed selection after image", async () => {
-    await setupEditor(`<p><img class="img-fluid" src="/web/static/img/logo.png">[]</p>`);
+    await setupEditor(`<p><img class="img-fluid" src="/web/static/img/favicon.png">[]</p>`);
     await animationFrame();
     await expectElementCount(".o-we-toolbar", 0);
 });

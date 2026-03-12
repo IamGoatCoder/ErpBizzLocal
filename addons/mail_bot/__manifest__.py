@@ -2,10 +2,10 @@
 # Part of ErpBizz. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'OdooBot',
+    'name': 'ErpBot',
     'version': '1.2',
     'category': 'Productivity/Discuss',
-    'summary': 'Add OdooBot in discussions',
+    'summary': 'Add ErpBot in discussions',
     'website': 'https://www.odoo.com/app/discuss',
     'depends': ['mail'],
     'auto_install': True,

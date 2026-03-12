@@ -13342,8 +13342,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "Afegir OdooBot en les discussions"
+msgid "Add ErpBot in discussions"
+msgstr "Afegir ErpBot en les discussions"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
@@ -33650,12 +33650,12 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "ErpBot"
+msgstr "ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
+msgid "ErpBot - HR"
 msgstr ""
 
 #. module: base
@@ -42605,10 +42605,10 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
-"Aquest mòdul afegeix l'estat d'OdooBot i les notificacions al formulari "
+"Aquest mòdul afegeix l'estat d'ErpBot i les notificacions al formulari "
 "d'usuari modificat per hr."
 
 #. module: base
@@ -49462,8 +49462,8 @@ msgstr ""
 #~ msgid "Add a notification when the tax report has been generated"
 #~ msgstr "Afegiu una notificació quan s'hagi generat l'informe fiscal"
 
-#~ msgid "Add livechat support for OdooBot"
-#~ msgstr "Afegeix la implementació del livechat per a OdooBot"
+#~ msgid "Add livechat support for ErpBot"
+#~ msgstr "Afegeix la implementació del livechat per a ErpBot"
 
 #~ msgid "Adds specific fields to Employees for Mexican companies."
 #~ msgstr "Afegeix camps específics a Empleats per a empreses mexicanes."
@@ -50259,8 +50259,8 @@ msgstr ""
 #~ msgid "Object %s doesn't exist"
 #~ msgstr "L'objecte %s no existeix"
 
-#~ msgid "OdooBot for livechat"
-#~ msgstr "OdooBot per a xat en directe"
+#~ msgid "ErpBot for livechat"
+#~ msgstr "ErpBot per a xat en directe"
 
 #~ msgid "On site Payment & Picking"
 #~ msgstr "Pagament i recollida al lloc"

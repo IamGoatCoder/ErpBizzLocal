@@ -17844,8 +17844,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "Lisää OdooBot keskusteluihin"
+msgid "Add ErpBot in discussions"
+msgstr "Lisää ErpBot keskusteluihin"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
@@ -39221,13 +39221,13 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "ErpBot"
+msgstr "ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
-msgstr "OdooBot - HR"
+msgid "ErpBot - HR"
+msgstr "ErpBot - HR"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -48437,7 +48437,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
 "Tämä moduuli lisää OdooBotin tilan ja ilmoitukset hr:n muokkaamaan "
@@ -57313,7 +57313,7 @@ msgstr "\"%(attribute)s\" arvon on oltava kokonaisluku (%(value)s)"
 #~ msgid "Add barcode scanning feature to event management."
 #~ msgstr "Lisää viivakoodin skannaustoiminto tapahtumien hallintaan."
 
-#~ msgid "Add livechat support for OdooBot"
+#~ msgid "Add livechat support for ErpBot"
 #~ msgstr "Lisää livechat-tuki OdooBotille"
 
 #~ msgid "Adds specific fields to Employees for Mexican companies."
@@ -58727,8 +58727,8 @@ msgstr "\"%(attribute)s\" arvon on oltava kokonaisluku (%(value)s)"
 #~ "sähköpostit suoraan sovellukseen.\n"
 #~ "\n"
 
-#~ msgid "OdooBot for livechat"
-#~ msgstr "OdooBot livechattiin"
+#~ msgid "ErpBot for livechat"
+#~ msgstr "ErpBot livechattiin"
 
 #~ msgid "On site Payment & Picking"
 #~ msgstr "Paikan päällä maksaminen ja keräily"

@@ -480,10 +480,10 @@ msgstr "Titlu"
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_3
 msgid ""
 "Type \"@\" to notify someone in a message, or \"#\" to link to a channel. "
-"Try to notify @OdooBot to test the feature."
+"Try to notify @ErpBot to test the feature."
 msgstr ""
 "Tastați \"@\" pentru a notifica pe cineva într-un mesaj sau \"#\" pentru a "
-"face legătura cu un canal. Încercați să notificați @OdooBot pentru a testa "
+"face legătura cu un canal. Încercați să notificați @ErpBot pentru a testa "
 "funcția."
 
 #. module: digest

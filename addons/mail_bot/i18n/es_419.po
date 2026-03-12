@@ -166,13 +166,13 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "Estado de OdooBot"
+msgid "ErpBot Status"
+msgstr "Estado de ErpBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
 msgid "Odoobot Failed"
-msgstr "Error de OdooBot"
+msgstr "Error de ErpBot"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
@@ -216,12 +216,12 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 "Perdón, no estaba poniendo atención. Si quieres hablar con alguien, envíale "
 "una %(bold_start)snotificación%(bold_end)s. Escribe %"
-"(command_start)s@OdooBot%(command_end)s y seleccióname."
+"(command_start)s@ErpBot%(command_end)s y seleccióname."
 
 #. module: mail_bot
 #. odoo-python
@@ -318,11 +318,11 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 "¡Guau, sí que tienes talento!%(new_line)sEtiqueta a alguien con su "
 "@nombredeusuario para enviarle una notificación. %(bold_start)sEtiquétame, "
-"usa%(bold_end)s %(command_start)s@OdooBot%(command_end)s en una oración."
+"usa%(bold_end)s %(command_start)s@ErpBot%(command_end)s en una oración."
 
 #. module: mail_bot
 #. odoo-python

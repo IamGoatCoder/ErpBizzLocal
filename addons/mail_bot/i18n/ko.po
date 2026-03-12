@@ -165,7 +165,7 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
+msgid "ErpBot Status"
 msgstr "Odoo봇 상태"
 
 #. module: mail_bot
@@ -215,11 +215,11 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 "죄송하지만 잘 못 들었어요. 다른 사용자에게 전달할 메시지가 있으면 %"
-"(bold_start)s연락하시면 됩니다%(bold_end)s. %(command_start)s@OdooBot%"
+"(bold_start)s연락하시면 됩니다%(bold_end)s. %(command_start)s@ErpBot%"
 "(command_end)s을 입력한 후 저를 선택하세요."
 
 #. module: mail_bot
@@ -311,10 +311,10 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 "벌써 잘 하시네요!%(new_line)s특정 사용자의 @사용자이름 을 넣으면 알림을 보낼 "
-"수 있습니다. %(bold_start)s저를 부르시려면 문장에%(bold_end)s @OdooBot%"
+"수 있습니다. %(bold_start)s저를 부르시려면 문장에%(bold_end)s @ErpBot%"
 "(command_end)s을 넣어서 입력해 보세요."
 
 #. module: mail_bot

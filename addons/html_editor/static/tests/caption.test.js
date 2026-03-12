@@ -559,7 +559,7 @@ test("replace an image with a caption", async () => {
             id: 1,
             name: "logo",
             mimetype: "image/png",
-            image_src: "/web/static/img/logo.png",
+            image_src: "/web/static/img/favicon.png",
             access_token: false,
             public: true,
         },
@@ -570,7 +570,7 @@ test("replace an image with a caption", async () => {
         config: configWithEmbeddedCaption,
         contentBefore: unformat(
             `<figure>
-                <img src="/web/static/img/logo.png">
+                <img src="/web/static/img/favicon.png">
                 <figcaption>Hello</figcaption>
             </figure>
             <h1>[]Heading</h1>`
@@ -582,13 +582,13 @@ test("replace an image with a caption", async () => {
             await waitFor(".o_select_media_dialog");
             await click(".o_existing_attachment_cell .o_button_area");
             await animationFrame();
-            expect("img[src='/web/static/img/logo.png']").toHaveCount(0);
-            expect("img[src='/web/static/img/logo.png']").toHaveCount(1);
+            expect("img[src='/web/static/img/favicon.png']").toHaveCount(0);
+            expect("img[src='/web/static/img/favicon.png']").toHaveCount(1);
         },
         // TODO: fix the weird final selection
         contentAfter: unformat(
             `<figure>
-                <img src="/web/static/img/logo.png" alt="" data-attachment-id="1" class="img img-fluid o_we_custom_image">
+                <img src="/web/static/img/favicon.png" alt="" data-attachment-id="1" class="img img-fluid o_we_custom_image">
                 <figcaption>Hello</figcaption>
             </figure>
             <h1>[]Heading</h1>`
@@ -602,7 +602,7 @@ test("edit caption after replacing image", async () => {
             id: 1,
             name: "logo",
             mimetype: "image/png",
-            image_src: "/web/static/img/logo.png",
+            image_src: "/web/static/img/favicon.png",
             access_token: false,
             public: true,
         },
@@ -613,7 +613,7 @@ test("edit caption after replacing image", async () => {
         config: configWithEmbeddedCaption,
         contentBefore: unformat(
             `<figure>
-                <img src="/web/static/img/logo.png">
+                <img src="/web/static/img/favicon.png">
                 <figcaption>ab</figcaption>
             </figure>
             <h1>[]Heading</h1>`
@@ -625,8 +625,8 @@ test("edit caption after replacing image", async () => {
             await waitFor(".o_select_media_dialog");
             await click(".o_existing_attachment_cell .o_button_area");
             await animationFrame();
-            expect("img[src='/web/static/img/logo.png']").toHaveCount(0);
-            expect("img[src='/web/static/img/logo.png']").toHaveCount(1);
+            expect("img[src='/web/static/img/favicon.png']").toHaveCount(0);
+            expect("img[src='/web/static/img/favicon.png']").toHaveCount(1);
             const input = queryOne("figure > figcaption > input");
             await click(input);
             expect(editor.document.activeElement).toBe(input);
@@ -638,7 +638,7 @@ test("edit caption after replacing image", async () => {
         },
         contentAfter: unformat(
             `<figure>
-                [<img src="/web/static/img/logo.png" alt="" data-attachment-id="1" class="img img-fluid o_we_custom_image">]
+                [<img src="/web/static/img/favicon.png" alt="" data-attachment-id="1" class="img img-fluid o_we_custom_image">]
                 <figcaption>abc</figcaption>
             </figure>
             <h1>Heading</h1>`
@@ -652,7 +652,7 @@ test("after replacing a captioned image, undo should revert to the original imag
             id: 1,
             name: "logo",
             mimetype: "image/png",
-            image_src: "/web/static/img/logo.png",
+            image_src: "/web/static/img/favicon.png",
             access_token: false,
             public: true,
         },
@@ -663,7 +663,7 @@ test("after replacing a captioned image, undo should revert to the original imag
         config: configWithEmbeddedCaption,
         contentBefore: unformat(
             `<figure>
-                <img src="/web/static/img/logo.png" class="img-fluid test-image">
+                <img src="/web/static/img/favicon.png" class="img-fluid test-image">
                 <figcaption></figcaption>
             </figure>
             <h1>[]Heading</h1>`
@@ -675,16 +675,16 @@ test("after replacing a captioned image, undo should revert to the original imag
             await waitFor(".o_select_media_dialog");
             await click(".o_existing_attachment_cell .o_button_area");
             await animationFrame();
-            expect("img[src='/web/static/img/logo.png']").toHaveCount(0);
-            expect("img[src='/web/static/img/logo.png']").toHaveCount(1);
+            expect("img[src='/web/static/img/favicon.png']").toHaveCount(0);
+            expect("img[src='/web/static/img/favicon.png']").toHaveCount(1);
             await press(["ctrl", "z"]);
             await animationFrame();
-            expect("img[src='/web/static/img/logo.png']").toHaveCount(1);
-            expect("img[src='/web/static/img/logo.png']").toHaveCount(0);
+            expect("img[src='/web/static/img/favicon.png']").toHaveCount(1);
+            expect("img[src='/web/static/img/favicon.png']").toHaveCount(0);
         },
         contentAfter: unformat(`
             <figure>
-                [<img src="/web/static/img/logo.png" class="img-fluid test-image">]
+                [<img src="/web/static/img/favicon.png" class="img-fluid test-image">]
                 <figcaption></figcaption>
             </figure>
             <h1>Heading</h1>

@@ -1760,7 +1760,7 @@ test("Partner IM status is displayed as thread icon in top bar of channels of ty
     await contains(
         ".o-mail-DiscussContent-header .o-mail-ImStatus [title='No IM status available']"
     );
-    await click(".o-mail-DiscussSidebarChannel", { text: "OdooBot" });
+    await click(".o-mail-DiscussSidebarChannel", { text: "ErpBot" });
     await contains(".o-mail-DiscussContent-header .o-mail-ImStatus [title='Bot']");
 });
 

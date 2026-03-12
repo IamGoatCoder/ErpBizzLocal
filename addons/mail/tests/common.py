@@ -1950,7 +1950,7 @@ class MailCommon(MailCase):
     <t t-set="show_footer" t-value="email_notification_force_footer or (
         email_notification_allow_footer and show_header and author_user and author_user._is_internal())"/>
     <p>English Layout for <t t-esc="model_description"/></p>
-    <img t-att-src="'/logo.png?company=%s' % (company.id or 0)" t-att-alt="'%s' % company.name"/>
+    <img t-att-src="'/favicon.png?company=%s' % (company.id or 0)" t-att-alt="'%s' % company.name"/>
     <div t-if="show_header">HEADER
         <a t-if="has_button_access" t-att-href="button_access['url']">
             <t t-esc="button_access['title']"/>

@@ -252,7 +252,7 @@ class Binary(http.Controller):
     @http.route([
         '/web/binary/company_logo',
         '/logo',
-        '/logo.png',
+        '/favicon.png',
     ], type='http', auth="none", cors="*")
     def company_logo(self, dbname=None, **kw):
         imgname = 'logo'
@@ -261,7 +261,7 @@ class Binary(http.Controller):
         uid = (request.session.uid if dbname else None) or odoo.SUPERUSER_ID
 
         if not dbname:
-            response = http.Stream.from_path(file_path('web/static/img/logo.png')).get_response()
+            response = http.Stream.from_path(file_path('web/static/img/favicon.png')).get_response()
         else:
             try:
                 company = int(kw['company']) if kw and kw.get('company') else False

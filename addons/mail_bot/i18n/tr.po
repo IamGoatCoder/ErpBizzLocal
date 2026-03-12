@@ -172,8 +172,8 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "OdooBot Durumu"
+msgid "ErpBot Status"
+msgstr "ErpBot Durumu"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
@@ -222,11 +222,11 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 "Üzgünüm, dinlemiyorum. Birinin dikkatini çekmek için %(bold_start)sona ping "
-"atın%(bold_end)s. %(command_start)s @OdooBot%(command_end)s yazın ve beni "
+"atın%(bold_end)s. %(command_start)s @ErpBot%(command_end)s yazın ve beni "
 "seçin."
 
 #. module: mail_bot
@@ -323,11 +323,11 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 "Vay canına, doğuştan yeteneklisin!%(new_line)sBirinin dikkatini çekmek için "
 "@kullanıcıadı ile ping at. %(bold_start)sBir cümle içinde%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s kullanarak bana ping atmayı deneyin."
+"(command_start)s@ErpBot%(command_end)s kullanarak bana ping atmayı deneyin."
 
 #. module: mail_bot
 #. odoo-python
@@ -425,10 +425,10 @@ msgstr "tura başla"
 
 #~ msgid ""
 #~ "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-#~ "Write <span class=\"o_odoobot_command\">@OdooBot</span> and select me."
+#~ "Write <span class=\"o_odoobot_command\">@ErpBot</span> and select me."
 #~ msgstr ""
 #~ "Üzgünüm, dinlemiyorum. Birinin dikkatini çekmek için <b>ona ping atın</"
-#~ "b>. <span class=\"o_odoobot_command\">@OdooBot</span> yazıp beni seçin."
+#~ "b>. <span class=\"o_odoobot_command\">@ErpBot</span> yazıp beni seçin."
 
 #~ msgid ""
 #~ "To <b>send an attachment</b>, click on the <i class=\"fa fa-paperclip\" "
@@ -452,11 +452,11 @@ msgstr "tura başla"
 #~ msgid ""
 #~ "Wow you are a natural!<br/>Ping someone with @username to grab their "
 #~ "attention. <b>Try to ping me using</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> in a sentence."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> in a sentence."
 #~ msgstr ""
 #~ "Vay canına, doğal birisin! <br/>Dikkatini çekmek için birine @ kullanıcı "
 #~ "adı ile ping atın.<b> Cümle içinde</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> kullanarak bana ping atmayı "
+#~ "class=\"o_odoobot_command\">@ErpBot</span> kullanarak bana ping atmayı "
 #~ "dene."
 
 #~ msgid ""

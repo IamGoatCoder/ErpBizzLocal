@@ -470,12 +470,12 @@ class TestHttpStaticLogo(TestHttpStaticCommon):
         cls.headers_default_logo = {
             'Content-Length': f'{len(cls.default_logo_data)}',
             'Content-Type': 'image/png',
-            'Content-Disposition': 'inline; filename=logo.png'
+            'Content-Disposition': 'inline; filename=favicon.png'
         }
         cls.headers_logo_gizeh = {
             'Content-Length': f'{len(cls.logo_gizeh_data)}',
             'Content-Type': 'image/png',
-            'Content-Disposition': 'inline; filename=logo.png'
+            'Content-Disposition': 'inline; filename=favicon.png'
         }
         cls.headers_logo_no_logo = {
             'Content-Length': f'{len(cls.logo_no_logo_data)}',
@@ -509,7 +509,7 @@ class TestHttpStaticLogo(TestHttpStaticCommon):
             self.authenticate(user.login, self.password)
         else:
             self.authenticate(None, None)
-        self.assertDownload(f'/logo.png{url_suffix}', {},
+        self.assertDownload(f'/favicon.png{url_suffix}', {},
                             assert_status_code=200, assert_headers=assert_headers, assert_content=assert_content)
 
     def assertDownloadLogoDefault(self, user=None, company=None):

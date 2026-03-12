@@ -75,7 +75,7 @@ class MailBot(models.AbstractModel):
                 return self.env._(
                     "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
                     "attention. %(bold_start)sTry to ping me using%(bold_end)s "
-                    "%(command_start)s@OdooBot%(command_end)s in a sentence.",
+                    "%(command_start)s@ErpBot%(command_end)s in a sentence.",
                     **self._get_style_dict()
                 )
             elif odoobot_state == "onboarding_ping" and odoobot.id in values.get("partner_ids", []):
@@ -170,7 +170,7 @@ class MailBot(models.AbstractModel):
                     self.env.user.odoobot_failed = True
                     return self.env._(
                         "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-                        "him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select"
+                        "him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select"
                         " me.",
                         **self._get_style_dict()
                     )

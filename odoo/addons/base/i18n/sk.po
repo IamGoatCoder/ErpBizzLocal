@@ -14598,7 +14598,7 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
+msgid "Add ErpBot in discussions"
 msgstr "Pridajte OdooBota do diskusií"
 
 #. module: base
@@ -34334,12 +34334,12 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "ErpBot"
+msgstr "ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
+msgid "ErpBot - HR"
 msgstr ""
 
 #. module: base
@@ -43035,10 +43035,10 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
-"Tento modul pridáva stav OdooBot a oznámenia v užívateľskej podobe upravenej "
+"Tento modul pridáva stav ErpBot a oznámenia v užívateľskej podobe upravenej "
 "o hr."
 
 #. module: base
@@ -50628,8 +50628,8 @@ msgstr ""
 #~ msgid "Add barcode scanning feature to event management."
 #~ msgstr "Pridá vlastnosti na načítanie čiarových kódov do Správy Udalostí."
 
-#~ msgid "Add livechat support for OdooBot"
-#~ msgstr "Pridajte pre OdooBot podporu livechat"
+#~ msgid "Add livechat support for ErpBot"
+#~ msgstr "Pridajte pre ErpBot podporu livechat"
 
 #~ msgid "Advanced Features for Purchase Management"
 #~ msgstr "Pokročilé funkcie pre správu nákupu"
@@ -51381,8 +51381,8 @@ msgstr ""
 #~ msgid "Object %s doesn't exist"
 #~ msgstr "Objekt %s neexistuje"
 
-#~ msgid "OdooBot for livechat"
-#~ msgstr "OdooBot pre livechat"
+#~ msgid "ErpBot for livechat"
+#~ msgstr "ErpBot pre livechat"
 
 #~ msgid ""
 #~ "One of the documents you are trying to access has been deleted, please "

@@ -563,10 +563,10 @@ msgstr "Sarlavha"
 #, fuzzy
 msgid ""
 "Type \"@\" to notify someone in a message, or \"#\" to link to a channel. "
-"Try to notify @OdooBot to test the feature."
+"Try to notify @ErpBot to test the feature."
 msgstr ""
 "Xabarda kimnidir belgilash uchun \"@\" yoki kanalga havola qilish uchun "
-"\"#\" belgisini kiriting. Ushbu funksiyani sinab ko‘rish uchun @OdooBot'ni "
+"\"#\" belgisini kiriting. Ushbu funksiyani sinab ko‘rish uchun @ErpBot'ni "
 "belgilashga harakat qiling."
 
 #. module: digest

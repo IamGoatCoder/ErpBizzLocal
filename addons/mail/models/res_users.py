@@ -391,7 +391,7 @@ class ResUsers(models.Model):
     def _init_store_data(self, store: Store):
         """Initialize the store of the user."""
         xmlid_to_res_id = self.env["ir.model.data"]._xmlid_to_res_id
-        # sudo: res.partner - exposing OdooBot data is considered acceptable
+        # sudo: res.partner - exposing ErpBot data is considered acceptable
         odoobot = self.env.ref("base.partner_root").sudo()
         if not self.env.user._is_public():
             odoobot = odoobot.with_prefetch((odoobot + self.env.user.partner_id).ids)

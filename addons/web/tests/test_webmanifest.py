@@ -27,9 +27,12 @@ class WebManifestRoutesTest(HttpCaseWithUserDemo):
         self.assertEqual(data["background_color"], "#714B67")
         self.assertEqual(data["theme_color"], "#714B67")
         self.assertEqual(data["prefer_related_applications"], False)
-        self.assertCountEqual(data["icons"], [
-            {'src': '/web/static/img/logo.png', 'type': 'image/png'},
-        ])
+        self.assertCountEqual(
+            data["icons"],
+            [
+                {"src": "/web/static/img/favicon.png", "type": "image/png"},
+            ],
+        )
         self.assertGreaterEqual(len(data["shortcuts"]), 0)
         for shortcut in data["shortcuts"]:
             self.assertGreater(len(shortcut["name"]), 0)
@@ -52,14 +55,18 @@ class WebManifestRoutesTest(HttpCaseWithUserDemo):
         self.assertEqual(data["background_color"], "#714B67")
         self.assertEqual(data["theme_color"], "#714B67")
         self.assertEqual(data["prefer_related_applications"], False)
-        self.assertCountEqual(data["icons"], [
-            {'src': '/web/static/img/logo.png', 'sizes': '192x192', 'type': 'image/png'},
-            {'src': '/web/static/img/logo-512x512.png', 'sizes': '512x512', 'type': 'image/png'}
-        ])
+        self.assertCountEqual(
+            data["icons"],
+            [
+                {"src": "/web/static/img/favicon.png", "type": "image/png"},
+            ],
+        )
         self.assertEqual(len(data["shortcuts"]), 0)
 
     def test_webmanifest_scoped(self):
-        response = self.url_open("/web/manifest.scoped_app_manifest?app_id=test&path=/test&app_name=Test")
+        response = self.url_open(
+            "/web/manifest.scoped_app_manifest?app_id=test&path=/test&app_name=Test"
+        )
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.headers["Content-Type"], "application/manifest+json")
         data = response.json()
@@ -70,9 +77,16 @@ class WebManifestRoutesTest(HttpCaseWithUserDemo):
         self.assertEqual(data["background_color"], "#714B67")
         self.assertEqual(data["theme_color"], "#714B67")
         self.assertEqual(data["prefer_related_applications"], False)
-        self.assertCountEqual(data["icons"], [
-            {'src': "/web/static/img/logo.png", 'sizes': 'any', 'type': 'image/png'}
-        ])
+        self.assertCountEqual(
+            data["icons"],
+            [
+                {
+                    "src": "/web/static/img/favicon.png",
+                    "sizes": "any",
+                    "type": "image/png",
+                }
+            ],
+        )
         self.assertEqual(len(data["shortcuts"]), 0)
 
     def test_serviceworker(self):
@@ -103,6 +117,7 @@ class WebManifestRoutesTest(HttpCaseWithUserDemo):
 
         document = self.url_open("/erpbizz")
         self.assertIn(
-            '<link rel="apple-touch-icon" href="/web/static/img/logo-ios.png"/>', document.text,
+            '<link rel="apple-touch-icon" href="/web/static/img/logo-ios.png"/>',
+            document.text,
             "Icon for iOS is present in the head of the document.",
         )

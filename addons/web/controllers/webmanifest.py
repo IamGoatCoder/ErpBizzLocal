@@ -47,16 +47,14 @@ class WebManifest(http.Controller):
             'scope': '/erpbizz',
             'start_url': '/erpbizz',
             'display': 'standalone',
-            'background_color': '#714B67',
-            'theme_color': '#714B67',
+            'background_color': '#481fb2',
+            'theme_color': '#481fb2',
             'prefer_related_applications': False,
         }
-        icon_sizes = ['192x192', '512x512']
         manifest['icons'] = [{
-            'src': '/web/static/img/logo-%s.png' % size,
-            'sizes': size,
+            'src': '/web/static/img/favicon.png',
             'type': 'image/png',
-        } for size in icon_sizes]
+        }]
         manifest['shortcuts'] = self._get_shortcuts()
         return manifest
 
@@ -89,7 +87,7 @@ class WebManifest(http.Controller):
             return body
 
     def _icon_path(self):
-        return 'web/static/img/logo.png'
+        return 'web/static/img/favicon.png'
 
     @http.route('/erpbizz/offline', type='http', auth='public', methods=['GET'], readonly=True)
     def offline(self):
@@ -154,8 +152,8 @@ class WebManifest(http.Controller):
             'scope': path,
             'start_url': path,
             'display': 'standalone',
-            'background_color': '#714B67',
-            'theme_color': '#714B67',
+            'background_color': '#481fb2',
+            'theme_color': '#481fb2',
             'prefer_related_applications': False,
             'shortcuts': self._get_scoped_app_shortcuts(app_id)
         }

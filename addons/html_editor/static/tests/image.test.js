@@ -343,7 +343,7 @@ test("Image transformation dissapear when selection change", async () => {
 
     setContent(
         el,
-        `<img class="img-fluid test-image" src="/web/static/img/logo.png">
+        `<img class="img-fluid test-image" src="/web/static/img/favicon.png">
         <p> [Hello] world </p> `
     );
     await waitForNone(".transfo-container");

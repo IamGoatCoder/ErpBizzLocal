@@ -155,8 +155,8 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "Estat de l'OdooBot"
+msgid "ErpBot Status"
+msgstr "Estat de l'ErpBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
@@ -202,7 +202,7 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 
@@ -288,7 +288,7 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 
 #. module: mail_bot
@@ -386,10 +386,10 @@ msgstr "Comença el recorregut"
 
 #~ msgid ""
 #~ "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-#~ "Write <span class=\"o_odoobot_command\">@OdooBot</span> and select me."
+#~ "Write <span class=\"o_odoobot_command\">@ErpBot</span> and select me."
 #~ msgstr ""
 #~ "Ho sento, no estic escoltant. Per cridar l'atenció d'algú,<b>ping a ell</"
-#~ "b>. Escriu <span class=\"o_odoobot_command\">@OdooBot</span> i "
+#~ "b>. Escriu <span class=\"o_odoobot_command\">@ErpBot</span> i "
 #~ "selecciona'm."
 
 #~ msgid ""
@@ -414,11 +414,11 @@ msgstr "Comença el recorregut"
 #~ msgid ""
 #~ "Wow you are a natural!<br/>Ping someone with @username to grab their "
 #~ "attention. <b>Try to ping me using</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> in a sentence."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> in a sentence."
 #~ msgstr ""
 #~ "Vaja, tens un talent natural<br/>Fes ping a algú amb @nomd'usuario per a "
 #~ "cridar la seva atenció.<b>Prova d'enviarme un ping fent servir</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> en una frase."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> en una frase."
 
 #~ msgid ""
 #~ "Yep, I am here! 🎉 <br/>Now, try <b>sending an attachment</b>, like a "

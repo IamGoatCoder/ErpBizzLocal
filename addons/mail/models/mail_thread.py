@@ -3968,7 +3968,7 @@ class MailThread(models.AbstractModel):
             title = "%s: %s" % (author_name, title)
             icon = "/web/image/res.partner/%d/avatar_128" % author_id
         else:
-            icon = '/web/static/img/logo.png'
+            icon = '/web/static/img/favicon.png'
 
         if tools.is_html_empty(body) and message.attachment_ids:
             total_attachments = len(message.attachment_ids)

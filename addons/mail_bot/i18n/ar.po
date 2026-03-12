@@ -164,8 +164,8 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "حالة OdooBot"
+msgid "ErpBot Status"
+msgstr "حالة ErpBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
@@ -214,11 +214,11 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 "عذراً، لم أكن مصغياً. للفت انتباه أحدهم، %(bold_start)sقم بمناداته%"
-"(bold_end)s. اكتب %(command_start)s@OdooBot%(command_end)s واخترني."
+"(bold_end)s. اكتب %(command_start)s@ErpBot%(command_end)s واخترني."
 
 #. module: mail_bot
 #. odoo-python
@@ -313,11 +313,11 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 "واو أنت موهوب بالفطرة!%(new_line)sقم بمناداة أحدهم باستخدام @username للفت "
 "انتباهه. %(bold_start)sجرب مناداتي باستخدام%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s في جملة."
+"(command_start)s@ErpBot%(command_end)s في جملة."
 
 #. module: mail_bot
 #. odoo-python
@@ -415,10 +415,10 @@ msgstr "بدء الجولة"
 
 #~ msgid ""
 #~ "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-#~ "Write <span class=\"o_odoobot_command\">@OdooBot</span> and select me."
+#~ "Write <span class=\"o_odoobot_command\">@ErpBot</span> and select me."
 #~ msgstr ""
 #~ "عذراً، لم أكن مصغياً. للفت انتباه أحدهم، <b>قم بمناداته</b>. اكتب <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> واخترني. "
+#~ "class=\"o_odoobot_command\">@ErpBot</span> واخترني. "
 
 #~ msgid ""
 #~ "To <b>send an attachment</b>, click on the <i class=\"fa fa-paperclip\" "
@@ -441,11 +441,11 @@ msgstr "بدء الجولة"
 #~ msgid ""
 #~ "Wow you are a natural!<br/>Ping someone with @username to grab their "
 #~ "attention. <b>Try to ping me using</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> in a sentence."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> in a sentence."
 #~ msgstr ""
 #~ "واو أنت موهوب بالفطرة!<br/>قم بمناداة أحدهم باستخدام @username للفت "
 #~ "انتباهه. <b>  جرب مناداتي باستخدام</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> في جملة. "
+#~ "class=\"o_odoobot_command\">@ErpBot</span> في جملة. "
 
 #~ msgid ""
 #~ "Yep, I am here! 🎉 <br/>Now, try <b>sending an attachment</b>, like a "

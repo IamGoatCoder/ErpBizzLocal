@@ -17815,8 +17815,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "Lägg till OdooBot i diskussioner"
+msgid "Add ErpBot in discussions"
+msgstr "Lägg till ErpBot i diskussioner"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
@@ -39167,13 +39167,13 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "ErpBot"
+msgstr "ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
-msgstr "OdooBot - HR"
+msgid "ErpBot - HR"
+msgstr "ErpBot - HR"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -48377,10 +48377,10 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
-"Den här modulen lägger till OdooBot-tillstånd och meddelanden i "
+"Den här modulen lägger till ErpBot-tillstånd och meddelanden i "
 "användarformuläret som ändras av hr."
 
 #. module: base
@@ -60084,8 +60084,8 @@ msgstr "\"%(attribute)s\" värdet måste vara ett heltal (%(value)s)"
 #~ msgstr ""
 #~ "Lägg till en funktion för skanning av streckkoder i evenemangshanteringen."
 
-#~ msgid "Add livechat support for OdooBot"
-#~ msgstr "Lägg till stöd för livechat för OdooBot"
+#~ msgid "Add livechat support for ErpBot"
+#~ msgstr "Lägg till stöd för livechat för ErpBot"
 
 #~ msgid "Advanced Features for Purchase Management"
 #~ msgstr "Avancerade funktioner för inköpsledning"
@@ -62756,8 +62756,8 @@ msgstr "\"%(attribute)s\" värdet måste vara ett heltal (%(value)s)"
 #~ "konferenser, webbseminarier och utbildningar.\n"
 #~ "\n"
 
-#~ msgid "OdooBot for livechat"
-#~ msgstr "OdooBot för livechat"
+#~ msgid "ErpBot for livechat"
+#~ msgstr "ErpBot för livechat"
 
 #~ msgid ""
 #~ "One of the documents you are trying to access has been deleted, please "

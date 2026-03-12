@@ -52,7 +52,7 @@ test("can open channel from @channel_name in command palette", async () => {
     await contains(".o_command", { count: 6 });
     await contains(".o_command:eq(0):has(.fa-hashtag)", { text: "project" });
     await contains(".o_command:eq(1):has(.fa-hashtag)", { text: "general" });
-    await contains(".o_command:has(.oi-user)", { text: "OdooBot" });
+    await contains(".o_command:has(.oi-user)", { text: "ErpBot" });
     await contains(".o_command:has(.oi-user)", { text: "Mitchell Admin" }); // self-conversation
     await contains(".o_command", { text: "Create Channel" });
     await contains(".o_command", { text: "Create Chat" });
@@ -126,7 +126,7 @@ test("only partners with dedicated users will be displayed in command palette", 
     await insertText(".o_command_palette_search input", "@");
     await contains(".o_command_name", { count: 5 });
     await contains(".o_command_name", { text: "Demo" });
-    await contains(".o_command_name", { text: "OdooBot" });
+    await contains(".o_command_name", { text: "ErpBot" });
     await contains(".o_command_name", { text: "Mitchell Admin" }); // self-conversation
     await contains(".o_command_name", { text: "Create Channel" });
     await contains(".o_command_name", { text: "Create Chat" });
@@ -146,14 +146,14 @@ test("hide conversations in recent if they have mentions", async () => {
         author_id: serverState.partnerId,
         model: "discuss.channel",
         res_id: channelId,
-        body: "@OdooBot",
+        body: "@ErpBot",
     });
     await start();
     triggerHotkey("control+k");
     await insertText(".o_command_palette_search input", "@", { replace: true });
     await contains(".o_command_category span.fw-bold", { text: "Mentions" });
     await contains(".o_command_palette .o_command_category .o_command_name", {
-        text: "OdooBot",
+        text: "ErpBot",
         count: 1,
     });
 });

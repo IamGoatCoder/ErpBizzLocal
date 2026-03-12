@@ -791,7 +791,7 @@ class ProductTemplate(models.Model):
     _check_company_auto = True
 
     def _default_responsible_id(self):
-        # Return the current user unless it's OdooBot
+        # Return the current user unless it's ErpBot
         return not self.env.user._is_superuser() and self.env.uid
 
     is_storable = fields.Boolean(

@@ -332,7 +332,7 @@ class TestPartner(TransactionCaseWithUserDemo):
         self.assertEqual(child_contact.with_context(lang='fr_FR').display_name, 'Parent, Autre')
 
     def test_main_user_id(self):
-        """Test main_user_id compute, including OdooBot special case and priority among several users."""
+        """Test main_user_id compute, including ErpBot special case and priority among several users."""
         self.assertEqual(self.env.ref("base.partner_root").main_user_id, self.env.ref("base.user_root"))
         partner = self.env["res.partner"].create({"name": "Test Partner"})
         # archived users are ignored

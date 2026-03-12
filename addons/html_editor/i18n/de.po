@@ -2517,8 +2517,8 @@ msgstr "Websocket-Nachrichtbearbeitung"
 #~ msgid "Lengthen"
 #~ msgstr "Verlängern"
 
-#~ msgid "OdooBot"
-#~ msgstr "OdooBot"
+#~ msgid "ErpBot"
+#~ msgstr "ErpBot"
 
 #~ msgid "Paste or type your URL"
 #~ msgstr "URL hier einfügen oder eingeben"

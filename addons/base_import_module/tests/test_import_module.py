@@ -489,13 +489,13 @@ class TestImportModuleHttp(TestImportModule, odoo.tests.HttpCase):
                 <data>
                     <record id="logo" model="ir.attachment">
                         <field name="name">Company Logo</field>
-                        <field name="datas" type="base64" file="foo/static/src/img/content/logo.png"/>
+                        <field name="datas" type="base64" file="foo/static/src/img/content/favicon.png"/>
                         <field name="res_model">ir.ui.view</field>
                         <field name="public" eval="True"/>
                     </record>
                 </data>
             """),
-            ('foo/static/src/img/content/logo.png', b"foo_logo"),
+            ('foo/static/src/img/content/favicon.png', b"foo_logo"),
         ]
         self.import_zipfile(files)
         logo_path, logo_data = files[2]

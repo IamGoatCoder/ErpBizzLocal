@@ -148,7 +148,7 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
+msgid "ErpBot Status"
 msgstr "وضعیت ربات اودوو"
 
 #. module: mail_bot
@@ -195,7 +195,7 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 
@@ -281,7 +281,7 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 
 #. module: mail_bot
@@ -349,10 +349,10 @@ msgstr ""
 #~ msgid ""
 #~ "Wow you are a natural!<br/>Ping someone with @username to grab their "
 #~ "attention. <b>Try to ping me using</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> in a sentence."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> in a sentence."
 #~ msgstr ""
 #~ "تو فوق‌العاده‌ای! با @username یک نفر را منشن کن و توجهش را جلب کن. <b>سعی "
-#~ "کن با  </b> <span class=\"o_odoobot_command\">@OdooBot</span> در یک جمله، "
+#~ "کن با  </b> <span class=\"o_odoobot_command\">@ErpBot</span> در یک جمله، "
 #~ "مرا منشن کنی."
 
 #~ msgid ""

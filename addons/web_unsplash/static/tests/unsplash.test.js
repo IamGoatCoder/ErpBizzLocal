@@ -10,7 +10,7 @@ test("Unsplash is inserted in the Media Dialog", async () => {
         id: 1,
         name: "logo",
         mimetype: "image/png",
-        image_src: "/web/static/img/logo.png",
+        image_src: "/web/static/img/favicon.png",
         access_token: false,
         public: true,
     };
@@ -27,7 +27,7 @@ test("Unsplash is inserted in the Media Dialog", async () => {
                     id: "oXV3bzR7jxI",
                     alt_description: "An image alt description",
                     urls: {
-                        regular: "/web/static/img/logo.png",
+                        regular: "/web/static/img/favicon.png",
                     },
                     user: {
                         name: "Username",
@@ -68,7 +68,7 @@ test("Unsplash error is displayed when there is no key", async () => {
         id: 1,
         name: "logo",
         mimetype: "image/png",
-        image_src: "/web/static/img/logo.png",
+        image_src: "/web/static/img/favicon.png",
         access_token: false,
         public: true,
     };
@@ -101,7 +101,7 @@ test("Document tab does not crash with FileSelector extension", async () => {
             id: 1,
             name: "logo",
             mimetype: "image/png",
-            image_src: "/web/static/img/logo.png",
+            image_src: "/web/static/img/favicon.png",
             access_token: false,
             public: true,
         },

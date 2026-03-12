@@ -189,8 +189,8 @@ msgstr ""
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
 #, fuzzy
-msgid "OdooBot Status"
-msgstr "OdooBot holati"
+msgid "ErpBot Status"
+msgstr "ErpBot holati"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
@@ -248,11 +248,11 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 "Kechirasiz, men quloq solmayapman. Kimningdir e'tiborini jalb qilish uchun, %"
-"(bold_start)suni ping qiling%(bold_end)s. %(command_start)s@OdooBot%"
+"(bold_start)suni ping qiling%(bold_end)s. %(command_start)s@ErpBot%"
 "(command_end)s deb yozing va meni tanlang."
 
 #. module: mail_bot
@@ -358,12 +358,12 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 "Voy, siz bunga juda qobiliyatli ekansiz!%(new_line)sKimningdir e'tiborini "
 "tortish uchun @foydalanuvchi_nomi orqali murojaat qiling. %"
 "(bold_start)sMenga murojaat qilish uchun gapda%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s dan foydalaning."
+"(command_start)s@ErpBot%(command_end)s dan foydalaning."
 
 #. module: mail_bot
 #. odoo-python

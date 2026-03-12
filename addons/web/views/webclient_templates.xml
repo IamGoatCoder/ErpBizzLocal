@@ -20,7 +20,7 @@
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <title t-esc="title or 'ErpBizz'"/>
-        <link type="image/x-icon" rel="shortcut icon" t-att-href="x_icon or '/web/static/img/favicon.ico'"/>
+        <link type="image/png" rel="icon" t-att-href="x_icon or '/web/static/img/favicon.png'"/>
         <script id="web.layout.odooscript" type="text/javascript">
             var odoo = {
                 csrf_token: "<t t-esc="request.csrf_token(None)"/>",
@@ -90,7 +90,7 @@
                 t-attf-href="http://www.odoo.com?utm_source=db&amp;utm_medium=#{_utm_medium}"
                 class="badge text-bg-light">
                 <img alt="ErpBizz"
-                    src="/web/static/img/logo.png"
+                    src="/web/static/img/favicon.png"
                     width="62" height="20"
                     style="width: auto; height: 1em; vertical-align: baseline;"/>
             </a>
@@ -278,7 +278,7 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
                 <meta name="theme-color" content="#000"/>
                 <link rel="manifest" href="/erpbizz/manifest.webmanifest" crossorigin="use-credentials"/>
-                <link rel="apple-touch-icon" href="/web/static/img/logo.png"/>
+                <link rel="apple-touch-icon" href="/web/static/img/favicon.png"/>
                 <script type="text/javascript">
                     // Block to avoid leaking variables in the script scope
                     {

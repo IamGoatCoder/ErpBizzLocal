@@ -170,13 +170,13 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "Stato OdooBot"
+msgid "ErpBot Status"
+msgstr "Stato ErpBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
 msgid "Odoobot Failed"
-msgstr "Errore OdooBot"
+msgstr "Errore ErpBot"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
@@ -220,11 +220,11 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 "Mi dispiace, non sto ascoltando. Per ottenere l'attenzione di qualcuno, %"
-"(bold_start)sfai un ping%(bold_end)s. Scrivi %(command_start)s@OdooBot%"
+"(bold_start)sfai un ping%(bold_end)s. Scrivi %(command_start)s@ErpBot%"
 "(command_end)s e selezionami."
 
 #. module: mail_bot
@@ -322,11 +322,11 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 "Wow, sei un talento naturale!%(new_line)sInvia un ping a qualcuno con "
 "@username per attirare la sua attenzione. %(bold_start)sProva a pingarmi "
-"usando%(bold_end)s %(command_start)s@OdooBot%(command_end)s in una frase."
+"usando%(bold_end)s %(command_start)s@ErpBot%(command_end)s in una frase."
 
 #. module: mail_bot
 #. odoo-python
@@ -427,10 +427,10 @@ msgstr "inizia il tour"
 
 #~ msgid ""
 #~ "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-#~ "Write <span class=\"o_odoobot_command\">@OdooBot</span> and select me."
+#~ "Write <span class=\"o_odoobot_command\">@ErpBot</span> and select me."
 #~ msgstr ""
 #~ "Mi dispiace, non sto ascoltando. Per ottenere l'attenzione di qualcuno, "
-#~ "<b>fai un ping</b>. Scrivi <span class=\"o_odoobot_command\">@OdooBot</"
+#~ "<b>fai un ping</b>. Scrivi <span class=\"o_odoobot_command\">@ErpBot</"
 #~ "span> e selezionami."
 
 #~ msgid ""
@@ -454,11 +454,11 @@ msgstr "inizia il tour"
 #~ msgid ""
 #~ "Wow you are a natural!<br/>Ping someone with @username to grab their "
 #~ "attention. <b>Try to ping me using</b> <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> in a sentence."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> in a sentence."
 #~ msgstr ""
 #~ "Wow, sei un talento naturale! <br/>Invia un ping a qualcuno con @username "
 #~ "per attirare la sua attenzione. <b>Prova a pingarmi</b> usando <span "
-#~ "class=\"o_odoobot_command\">@OdooBot</span> in una frase."
+#~ "class=\"o_odoobot_command\">@ErpBot</span> in una frase."
 
 #~ msgid ""
 #~ "Yep, I am here! 🎉 <br/>Now, try <b>sending an attachment</b>, like a "

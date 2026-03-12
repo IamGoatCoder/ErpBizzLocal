@@ -2516,8 +2516,8 @@ msgstr "gestión de mensajes de WebSocket"
 #~ msgid "Lengthen"
 #~ msgstr "Alargar"
 
-#~ msgid "OdooBot"
-#~ msgstr "OdooBot"
+#~ msgid "ErpBot"
+#~ msgstr "ErpBot"
 
 #~ msgid "Outline"
 #~ msgstr "Contorno"

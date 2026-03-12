@@ -17718,8 +17718,8 @@ msgstr "Add Merge action in contextual menu of project task and tag models."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "Adăugați OdooBot în discuții"
+msgid "Add ErpBot in discussions"
+msgstr "Adăugați ErpBot în discuții"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_add_gln
@@ -39013,13 +39013,13 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "ErpBot"
+msgstr "ErpBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
-msgstr "OdooBot - HR"
+msgid "ErpBot - HR"
+msgstr "ErpBot - HR"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -48216,10 +48216,10 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the ErpBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
-"Acest modul adaugă starea OdooBot și notificările în formularul "
+"Acest modul adaugă starea ErpBot și notificările în formularul "
 "utilizatorului modificat de hr."
 
 #. module: base
@@ -57559,8 +57559,8 @@ msgstr "Valoarea „%(attribute)s” trebuie să fie un număr întreg (%(value)
 #~ "conferințe, webinarii, cursuri, etc.\n"
 #~ "\n"
 
-#~ msgid "OdooBot for livechat"
-#~ msgstr "OdooBot pentru livechat"
+#~ msgid "ErpBot for livechat"
+#~ msgstr "ErpBot pentru livechat"
 
 #~ msgid ""
 #~ "One of the documents you are trying to access has been deleted, please "

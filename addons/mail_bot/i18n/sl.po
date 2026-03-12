@@ -163,8 +163,8 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "OdooBot status"
+msgid "ErpBot Status"
+msgstr "ErpBot status"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
@@ -213,11 +213,11 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@ErpBot%(command_end)s and select "
 "me."
 msgstr ""
 "Žal mi je, ne poslušam. Če želiš pritegniti pozornost nekoga, mu %"
-"(bold_start)spošlji%(bold_end)s. Napiši %(command_start)s@OdooBot%"
+"(bold_start)spošlji%(bold_end)s. Napiši %(command_start)s@ErpBot%"
 "(command_end)s in izberi mene."
 
 #. module: mail_bot
@@ -312,11 +312,11 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
-"(command_start)s@OdooBot%(command_end)s in a sentence."
+"(command_start)s@ErpBot%(command_end)s in a sentence."
 msgstr ""
 "Vau, ti si pa res naraven!%(new_line)sPinkaj nekoga z @uporabniškoime, da "
 "pritegneš njegovo pozornost. %(bold_start)sPoskusi pingati mene z uporabo%"
-"(bold_end)s %(command_start)s@OdooBot%(command_end)s v stavku."
+"(bold_end)s %(command_start)s@ErpBot%(command_end)s v stavku."
 
 #. module: mail_bot
 #. odoo-python
